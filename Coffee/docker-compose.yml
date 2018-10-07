@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coffee:
+    image: ${DOCKER_REGISTRY}coffee
+    build:
+      context: .
+      dockerfile: Coffee/Dockerfile
